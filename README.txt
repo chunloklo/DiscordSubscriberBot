@@ -1,0 +1,1 @@
+README: To get the bot to work, you must create your own Discord chat bot and insert your bot's ID and token into line 60 and 208 respectively
