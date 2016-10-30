@@ -184,7 +184,7 @@ async def on_message(message):
 			await client.send_message(message.channel, msg)
 
 		if message.content.startswith("!help"):
-			msg = "```Command List:\n!subscribe \n!unsubscribe \n!database \n!call \n!quit```"
+			msg = "```Command List:\n!subscribe \n!unsubscribe \n!call \n!database \n!clear \n!quit```"
 			await client.send_message(message.channel, msg)
 
 		if message.content.startswith("!clear"):
